@@ -487,7 +487,34 @@ pre {
   .no-gutters > .col,
   .no-gutters > [class*="col-"] {
     padding-right: 0;
-    padding-left: 0; }
+    padding-left: 0; 
+  }
+
+.background-details{
+  background-color: #004085;
+  border: 1px solid #004085;
+  padding: 0px 16px;
+  border-radius: 15px;
+}
+.background-live{
+  background-color: #004085;
+  border: 1px solid #004085;
+  padding: 0px 16px;
+  border-radius: 15px;
+}
+.background-code{
+  background-color: #004085;
+  border: 1px solid #004085;
+  padding: 0px 16px;
+  border-radius: 15px;
+}
+.projects .h3 span{
+  background-color: #004085;
+  border: 1px solid #004085;
+  padding: 0px 16px;
+  border-radius: 15px;
+  color: white;
+}
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
@@ -8991,8 +9018,17 @@ h1, h2, h3, h4, h5,
     @media (max-width: 767.98px) {
       .project .overlay {
         opacity: .2; } }
+  .text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
   .project .text {
-    max-width: 80%;
+    max-width: 100%;
     z-index: 1;
     opacity: 0;
     -moz-transition: all 0.3s ease;
@@ -9006,10 +9042,15 @@ h1, h2, h3, h4, h5,
       .project .text h3 a {
         color: #fff; }
     .project .text span {
-      color: #b1b493;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-weight: 600; }
+      color: white;
+      background-color: #004085;
+      border: 1px solid #004085;
+      margin-right: 5px;
+      padding: 0px 10px;
+      border-radius: 15px;
+      letter-spacing: 0px;
+      font-size: 15px;
+      font-weight: 400; }
     @media (max-width: 767.98px) {
       .project .text {
         opacity: 1; }
