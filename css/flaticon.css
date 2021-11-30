@@ -42,7 +42,7 @@
 .flaticon-advertising:before { content: "\f103"; }
 .flaticon-branding:before { content: "\f104"; }
 .flaticon-vector:before { content: "\f105"; }
-.flaticon-computer:before { content: "\f106"; }
+.flaticon-code::before { content: "\f106"; }
 .flaticon-zoom:before { content: "\f107"; }
 .flaticon-suitcase:before { content: "\f108"; }
 .flaticon-loyalty:before { content: "\f109"; }

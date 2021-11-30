@@ -8673,6 +8673,27 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
           background: #fff; }
 
+.overview{
+  font-size: 30px;
+  font-weight: 600;
+}
+.technology{
+  font-size: 15px;
+  color: whitesmoke;
+  background-color: blue;
+  opacity: 50%;
+  border: 1px solid lightseagreen;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.name-style{
+  font-size: 25px;
+  font-weight: 600;
+}
+.comming{
+  font-size: 40px;
+}
+
 .hero-wrap {
   width: 100%;
   height: 100%;
@@ -8993,12 +9014,28 @@ h1, h2, h3, h4, h5,
 
 .project {
   width: 100%;
-  height: 285px;
+  height: 260px;
   margin-bottom: 30px;
   position: relative;
   z-index: 0;
   border-radius: 5px;
   overflow: hidden; }
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text-block {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    opacity: 75%;
+    color: #b1b493;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+  }
   .project .overlay {
     position: absolute;
     top: 0;
@@ -9018,15 +9055,7 @@ h1, h2, h3, h4, h5,
     @media (max-width: 767.98px) {
       .project .overlay {
         opacity: .2; } }
-  .text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
   .project .text {
     max-width: 100%;
     z-index: 1;
