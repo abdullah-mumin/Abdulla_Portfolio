@@ -8674,7 +8674,7 @@ h1, h2, h3, h4, h5,
           background: #fff; }
 
 .overview{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
 }
 .technology{
@@ -8687,11 +8687,26 @@ h1, h2, h3, h4, h5,
   border-radius: 15px;
 }
 .name-style{
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 500;
+}
+.author {
+  width: 100%;
+  border-radius: 5px;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.author-inside{
+  margin-left: 20px;
 }
 .comming{
   font-size: 40px;
+}
+.image-author{
+  border-radius: 0 5px 5px 0;
+  height: 150px;
 }
 
 .hero-wrap {
@@ -9398,7 +9413,7 @@ textarea.form-control {
 
 .ftco-counter {
   overflow-x: hidden;
-  position: relative;
+  /* position: relative; */
   padding: 5em 0; }
   @media (max-width: 1199.98px) {
     .ftco-counter {
